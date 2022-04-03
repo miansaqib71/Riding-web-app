@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.navbar {
+  background: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-brand {
+  margin-left: 20px;
+  width: 90px;
+  height: 100px;
+  background-size: contain;
+  background-image: url("./components/logo.png");
+}
+.home-video {
+  position: absolute;
+  left: 0px;
+
+  width: 100vw;
+  z-index: -1;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-ul {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.home-col-1 {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: left;
+}
+.home-col-1 h5 {
   color: white;
+  font-size: 17px;
+}
+.home-col-1 h3 {
+  color: white;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.home-col-2 {
+  background-color: white;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 20px;
 }
+.home-col-3 {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  font-size: 17px;
+}
+.home-col-3 {
+  background-color: rgb(219, 219, 219);
+  background: url("./screens/mob-img.webp");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+}
+.home-col-2 h5 {
+  font-size: 23px;
+}
+.home-col-2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cards {
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 5px 15px;
+}
+.img-carousel {
+  height: 100px;
+}
+.last-col {
+  padding: 20px;
+  padding-left: 40px;
+}
+/* }
+.footer {
+  background-color: gray;
+  align-items: center;
+}
+.footer h6 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.footer span {
+  margin-left: 500px;
+} */
