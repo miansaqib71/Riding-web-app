@@ -22,9 +22,9 @@ import company2 from "./images/company-2.jpeg";
 import company3 from "./images/company-3.png";
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import delivery1 from "./images/delivery-1.jpeg";
-import delivery2 from "./images/delivery-2.jpeg";
-import delivery3 from "./images/delivery-3.webp";
+import talabat4 from "./images/talabat-4.jpg";
+import careem2 from "./images/careem-2.jpg";
+import noon1 from "./images/noon-3.jpg";
 import { FloatingLabel } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
@@ -92,14 +92,20 @@ const Home = () => {
               in 2021
             </h5>
             <p>
-              Najm Iman Delivery Services is a significant corporation located
-              in the United Arab Emirates that provides businesses with delivery
-              related services. The organization has made a name for iteself by
-              offering the best logistical services to its customers. Over the
-              years,Najm Iman Delivery Services has amassed a large fieet of
-              bike riders who transport goods in a hyperlocal area as well as
-              intracity deliveries using a well- developed transportation
-              network.
+              Asslam-o-Alaikum! By the grace of Allah Almighty who made us the
+              followers of His Prophet Hazrat Muhammad (PBUH). All the riders of
+              Najam Iman Delivery Services are part of a professional company
+              which is launching not only Delivery Services but also its various
+              projects in furure. We will have seven branches in seven states of
+              the UAE in Future. First of all work has been started in Dubai and
+              then in other states with the passage of time.I am from Pakistan,
+              the great Islamic country in Asia, and by the grace of God I have
+              done M.Phil. in Mathematics. I wish our riders should not only
+              work to earn money but also work as volunteer in case of any
+              accident or heavenly calamity. Because in this temporary life,
+              along with earning money, one should do good deeds for his better
+              hereafter life.i am also working for Iman Foundation for needy
+              people and Other social works in backward areas.
             </p>
           </Col>
 
@@ -117,10 +123,10 @@ const Home = () => {
         <Row className="ms-5">
           <Col>
             <Card className="p-4 cards" style={{ width: "22rem" }}>
-              <Card.Img variant="top" src={delivery1} rounded />
+              <Card.Img variant="top" src={talabat4} rounded />
               <Card.Body>
                 <Card.Title>
-                  <h3 className="mb-5">Last Mile Deliveries</h3>
+                  <h3 className="mb-5">Talabat</h3>
                 </Card.Title>
 
                 <Button variant="danger">Read</Button>
@@ -129,10 +135,10 @@ const Home = () => {
           </Col>
           <Col>
             <Card className="p-4 cards" style={{ width: "24rem" }}>
-              <Card.Img variant="top" src={delivery2} />
+              <Card.Img variant="top" src={careem2} />
               <Card.Body>
                 <Card.Title>
-                  <h3 className="mb-5">Leasing Solutions</h3>
+                  <h3 className="mb-5">Careem</h3>
                 </Card.Title>
 
                 <Button variant="danger">Read</Button>
@@ -141,10 +147,10 @@ const Home = () => {
           </Col>
           <Col>
             <Card className="p-4 cards" style={{ width: "24rem" }}>
-              <Card.Img variant="top" src={delivery3} />
+              <Card.Img variant="top" src={noon1} />
               <Card.Body>
                 <Card.Title>
-                  <h3 className="mb-5">Storage Facilities</h3>
+                  <h3 className="mb-5">Noon</h3>
                 </Card.Title>
 
                 <Button variant="danger">Read</Button>
